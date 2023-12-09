@@ -105,6 +105,39 @@ z-index: 50;
     position: absolute;
     height: 100%;
 }
+.buscador {
+    top: -175px;
+    margin-bottom: 250px;
+    position: relative;
+    width: fit-content;
+    left: 940px;
+}
+
+.buscar {
+    background-color: transparent;
+    width: 300px; 
+    height: 40px;
+    padding: 20px; 
+    border: var(--color-blanco) solid 1px;
+    border-radius: 100px;
+    color: var(--color-blanco);
+    font: size 20px;
+    font-family: var(--font-family-grotesque);
+
+
+}
+
+.buscar::placeholder {
+    color: var(--color-blanco)
+}
+.buscador .lupa {
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translate(0, -50%);
+    cursor: pointer;
+}
+
 .seccion-casa-principal .seccion-casa-principal-container-texto {
     z-index: 2;
     background-color: transparent;
@@ -141,6 +174,7 @@ z-index: 50;
    .redessociales p {
     transform: rotate(90deg);
     color: var(--color-gris-barra);
+    font-size: 20px;
 
     }
     .redessociales .social{
@@ -148,6 +182,39 @@ z-index: 50;
         width: 9px;
 
     }
+
+    .bflecha {
+        font-weight:500 ;
+        border:solid 1px var(--color-blanco) ;
+        border-radius: 100px;
+        background-color: transparent;
+        padding: 15px 30px 15px 60px;
+        font-family: var(--font-family-grotesque);
+        font-size:  16px;
+        color: var(--color-blanco);
+        display: flex;
+        position: relative;
+        top: 30px;
+        left: 100px;
+        
+    }
+        .flechablanca{
+            position: absolute;
+            width:20px;
+            
+            left: 120px;
+            
+            
+
+            
+        
+
+
+        }
+
+
+
+    
 
 /* footer inicio */
 footer {
